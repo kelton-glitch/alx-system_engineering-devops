@@ -1,0 +1,5 @@
+#!/usr/bin/env badh
+#Displays listening ports and sockets
+# + as the PID and name of the program to which the socket belongs
+
+nestat -l --program
