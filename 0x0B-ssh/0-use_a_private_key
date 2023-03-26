@@ -1,4 +1,4 @@
 #/bin/bash
 #Connects to server with key in ~/.ssh/school
 
-ssh -i ~/.ssh/school ubuntu@3.236.220.130
+ssh -i ~/.ssh/school ubuntu@100.25.13.115
