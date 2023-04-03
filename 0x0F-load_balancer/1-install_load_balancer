@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 # Installs and setup haproxy
 
-apt-get install -y software-properties-common
-add-apt-repository -y ppa:vbernat/haproxy-1.8
 apt-get -y update
-apt-get install -y haproxy=1.8.\*
+apt-get install -y haproxy=1.6.\*
 
-# echo "ENABLED=1" > /etc/default/haproxy
 
 #Listen to web1 and web2 servers using roundrobin technique
 echo '
@@ -20,4 +17,4 @@ echo '
         server 103975-web-02 52.90.15.63:80
 ' >> /etc/haproxy/haproxy.cfg
 
-service haproxy start
+service haproxy restart
