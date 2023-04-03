@@ -12,7 +12,7 @@ apt-get install -y haproxy=1.8.\*
 echo '
    frontend kelton-glitch.tech
         bind 0:80
-        default_backend wed_servers
+        default_backend web_servers
    
    backend web_servers
         balance roundrobin
