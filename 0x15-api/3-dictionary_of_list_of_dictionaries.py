@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Exports to-do list information of all employees to JSON format"""
+"""Exports to-do list information of all employees to JSON format."""
 import json
 import requests
 
@@ -15,5 +15,4 @@ if __name__ == "__main__":
                 "username": u.get("username")
             } for t in requests.get(url + "todos",
                                     params={"userId": u.get("id")}).json()]
-            for u in users
-            }, jsonfile)
+            for u in users}, jsonfile)
