@@ -4,7 +4,7 @@ import json
 import requests
 
 if __name__ == "__main__":
-    url = "https://jsonplaceholder.typicode.com/"
+    url = "https://jsonplaceholder.typicode.com/users/"
     users = requests.get(url + "users").json()
 
     with open("todo_all_employees.json", "w") as jsonfile:
