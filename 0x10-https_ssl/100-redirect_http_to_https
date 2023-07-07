@@ -50,4 +50,4 @@ backend kelton-glitch.tech-backend
         server 103975-web-01 54.209.100.100:80 check
         server 103975-web-02 52.86.245.35:80 check
 # end of parameters
-                                                                                                 51,15         Bot
+                                            
