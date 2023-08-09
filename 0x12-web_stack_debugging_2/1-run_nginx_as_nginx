@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 # A bash script that runs the nginx server as nginx
 # It also configures the listen port to 8080
 pkill apache2
