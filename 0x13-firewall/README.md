@@ -1,4 +1,0 @@
-# Firewall
-
-Firewall exercises
-
