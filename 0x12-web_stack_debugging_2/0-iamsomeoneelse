@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# A bash script that runs the whoami command on the first argument passed
-# to it. Here the assumption is the first command passed to the script is the user
-# registered to the system
-sudo -u "$1" whoami
